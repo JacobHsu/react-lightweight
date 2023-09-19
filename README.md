@@ -2,6 +2,11 @@
 
 widget [symbol-overview](https://tw.tradingview.com/widget/symbol-overview/)  
 
+[tradingview.com/lightweight-charts](https://tw.tradingview.com/lightweight-charts/)  
+[React Lightweight Chart](https://codesandbox.io/s/9inkb)  
+[圖例](https://jsfiddle.net/TradingView/dtehqksw/)  
+
+
 ## Available Scripts
 
 In the project directory, you can run:
