@@ -1,5 +1,6 @@
 {
   "name": "react-lightweight",
+  "homepage": "https://jacobhsu.github.io/react-lightweight",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
