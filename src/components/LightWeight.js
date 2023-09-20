@@ -3,7 +3,7 @@ import { createChart } from "lightweight-charts";
 import { priceData } from "./priceData";
 import "./style.css";
 
-export default function LightWeight() {
+export default function LightWeight({etf}) {
   const chartContainerRef = useRef(null);
   useEffect(() => {
     const chart = createChart(chartContainerRef.current, {
@@ -49,7 +49,9 @@ export default function LightWeight() {
       lineWidth: 2,
       crossHairMarkerVisible: false,
     });
-    areaSeries.setData(priceData);
+    areaSeries.setData(etf); // etf // priceData
+
+    chart.timeScale().fitContent();
 
     var firstRow = document.createElement('div');
     firstRow.innerText = 'ETC USD 7D VWAP';

@@ -6,6 +6,11 @@ widget [symbol-overview](https://tw.tradingview.com/widget/symbol-overview/)
 [React Lightweight Chart](https://codesandbox.io/s/9inkb)  
 [圖例](https://jsfiddle.net/TradingView/dtehqksw/)  
 
+[React useEffect double rendering fix](https://404answernotfound.eu/blog/react-useeffect-double-rendering-fix-and-why-you-should-stop-crying-about-it) `StrictMode`
+
+## lightweight-charts
+
+`chart.timeScale().fitContent();`
 
 ## Available Scripts
 
