@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@pancakeswap/sdk": "^5.4.2",
+    "@pancakeswap/tokens": "^0.4.3"
   }
 }
