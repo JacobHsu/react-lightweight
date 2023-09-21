@@ -9,6 +9,9 @@ widget [symbol-overview](https://tw.tradingview.com/widget/symbol-overview/)
 
 [React useEffect double rendering fix](https://404answernotfound.eu/blog/react-useeffect-double-rendering-fix-and-why-you-should-stop-crying-about-it) `StrictMode`
 
+
+pancake-frontend [PairPriceChart](packages/uikit/src/components/Chart/PairPriceChart.tsx)
+
 ## lightweight-charts
 
 `chart.timeScale().fitContent();`

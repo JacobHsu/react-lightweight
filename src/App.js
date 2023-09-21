@@ -10,13 +10,12 @@ import { bscTokens } from "@pancakeswap/tokens";
 function App() {
   const [filelData, setFilelData] = React.useState(null);
   useEffect(() => {
-  console.log(22222, bscTokens.bnb)
+
   const testRes = new Price({
     baseAmount: CurrencyAmount.fromRawAmount(bscTokens.bnb, "15671741929954778"),
     quoteAmount: CurrencyAmount.fromRawAmount(bscTokens.cake, "10000000000000"),
   })
-  console.log(333, testRes)
-    console.log()
+
     const baseURL = "https://node-etfs-api.onrender.com/api/etfs";
     axios.get(baseURL).then((response) => {
       if (response.data && response.data.errno === 0) {

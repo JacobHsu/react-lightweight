@@ -1,7 +1,7 @@
 .legend {
 	position: absolute;
 	left: 12px;
-	top: 12px;
+	top: 44px;
 	z-index: 1;
 	font-size: 12px;
 	line-height: 18px;
@@ -9,9 +9,9 @@
 }
 
 .switcher {
-	position: absolute;
+	/* position: absolute;
 	left: 12px;
-	top: 32px;
+	top: 2px; */
 	z-index: 10;
 	height: 30px;
 	margin-top: 8px;
